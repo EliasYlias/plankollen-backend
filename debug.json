@@ -1,0 +1,860 @@
+[
+  {
+    "url": "https://solna.ibgo.se/APIApplicationText/GetByApplicationText/111",
+    "json": "Vi använder cookies för att göra din upplevelse så trevlig som möjligt. Vi kommer inte att dela information om hur du använder vår webbplats till tredjepart."
+  },
+  {
+    "url": "https://solna.ibgo.se/BookingAPI/GetAppLanguages",
+    "json": [
+      {
+        "Text": "Svenska",
+        "Code": "SV-SE",
+        "DefaultCulture": "SV-SE"
+      }
+    ]
+  },
+  {
+    "url": "https://solna.ibgo.se/View/GetUserInformation/",
+    "json": {
+      "UserFullName": " ",
+      "CustomerId": null,
+      "CustomerName": null,
+      "Role": 0,
+      "CartCount": 0,
+      "AllowOnlyBookingRequests": false,
+      "CustomerType": null,
+      "IsPublic": false,
+      "Customer": null,
+      "PreliminaryAccessMediaCount": 0,
+      "HasMultipleRoles": false
+    }
+  },
+  {
+    "url": "https://solna.ibgo.se/View/GetMenuItems/",
+    "json": {
+      "menuItems": [
+        {
+          "defaultUrl": "/",
+          "mobileUrl": "",
+          "mdiIcon": "mdi-home",
+          "text": "Hem",
+          "countIndicator": 0,
+          "subNavigations": []
+        },
+        {
+          "defaultUrl": "/Booking/Search",
+          "mobileUrl": "",
+          "mdiIcon": "mdi-calendar-month",
+          "text": "Sök/Boka",
+          "countIndicator": 0,
+          "subNavigations": []
+        },
+        {
+          "defaultUrl": "/AssociationRegister",
+          "mobileUrl": "",
+          "mdiIcon": "mdi-format-list-bulleted",
+          "text": "Föreningsregister",
+          "countIndicator": 0,
+          "subNavigations": []
+        }
+      ],
+      "copyrightText": "© 2026 Pinea Sweden AB",
+      "accessibilityStatementUrl": "https://pinea.se/sv/kunskapscenter/?path=%2Fguide%2Ftillganglighetsredogorelse%3Fcategory%3Ddataskydd-och-sakerhet"
+    }
+  },
+  {
+    "url": "https://solna.ibgo.se/APIBooking/SearchBookableFacilityObjects",
+    "json": [
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 33,
+        "FacilityObjectName": "11-plan A-konstgräs (1)",
+        "FacilityObjectTypeName": "11-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 161,
+        "FacilityObjectName": "11-plan A-konstgräs (1), Halva A-planen 7A",
+        "FacilityObjectTypeName": "7-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 162,
+        "FacilityObjectName": "11-plan A-konstgräs (1), Halva A-planen 7B",
+        "FacilityObjectTypeName": "7-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 34,
+        "FacilityObjectName": "11-plan B-konstgräs (2)",
+        "FacilityObjectTypeName": "11-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 163,
+        "FacilityObjectName": "11-plan B-konstgräs (2), Halva B-planen 7A",
+        "FacilityObjectTypeName": "7-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 164,
+        "FacilityObjectName": "11-plan B-konstgräs (2), Halva B-planen 7B",
+        "FacilityObjectTypeName": "7-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 31,
+        "FacilityObjectName": "11-plan C-konstgräs (3)",
+        "FacilityObjectTypeName": "11-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 157,
+        "FacilityObjectName": "11-plan C-konstgräs (3), Halva C-planen 7A",
+        "FacilityObjectTypeName": "7-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms IP",
+        "FacilityObjectId": 158,
+        "FacilityObjectName": "11-plan C-konstgräs (3), Halva C-planen 7B",
+        "FacilityObjectTypeName": "7-plan konstgräs",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms skola",
+        "FacilityObjectId": 80,
+        "FacilityObjectName": "Gymnastiksal liten",
+        "FacilityObjectTypeName": "Gymnastiksal",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholms skola",
+        "FacilityObjectId": 81,
+        "FacilityObjectName": "Gymnastiksal Mellan",
+        "FacilityObjectTypeName": "Gymnastiksal",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      },
+      {
+        "FacilityName": "Skytteholmsskolans matsal",
+        "FacilityObjectId": 1359,
+        "FacilityObjectName": "Matsalen",
+        "FacilityObjectTypeName": "Samlingslokal",
+        "DistrictName": "Solna",
+        "IsBookingRequestOnly": true,
+        "IsFavourite": false
+      }
+    ]
+  },
+  {
+    "url": "https://solna.ibgo.se/APIApplicationText/GetByApplicationText/79",
+    "json": "- Välj vilken aktivitet eller anläggning din sökning gäller samt  datum. Klicka på SÖK. \r\nSystemet visar en veckokalender som ger dig möjlighet att välja vilken hall, sal eller plan du vill boka. \r\n- Välj sedan ledig tid direkt i kalendern för att skicka in en bokningsförfrågan.\r\n- Vill du boka en återkommande tid, klicka på länken avacerad sökning nedan."
+  },
+  {
+    "url": "https://solna.ibgo.se/APIBooking/GetSearchBookableFacilityObjectsFilterLists",
+    "json": {
+      "publicBokingTimeSelection": 0,
+      "informationText": "- Välj vilken aktivitet eller anläggning din sökning gäller samt  datum. Klicka på SÖK. \r\nSystemet visar en veckokalender som ger dig möjlighet att välja vilken hall, sal eller plan du vill boka. \r\n- Välj sedan ledig tid direkt i kalendern för att skicka in en bokningsförfrågan.\r\n- Vill du boka en återkommande tid, klicka på länken avacerad sökning nedan.",
+      "bookingBeforeStartHoursRestriction": 6,
+      "minimumBookingtime": 30,
+      "activityTypes": [
+        {
+          "Value": 3,
+          "Text": "Aikido"
+        },
+        {
+          "Value": 4,
+          "Text": "Allmänhetens åkning"
+        },
+        {
+          "Value": 2,
+          "Text": "Amerikansk fotboll"
+        },
+        {
+          "Value": 5,
+          "Text": "Arrangemang"
+        },
+        {
+          "Value": 6,
+          "Text": "Badminton"
+        },
+        {
+          "Value": 7,
+          "Text": "Bandy"
+        },
+        {
+          "Value": 13,
+          "Text": "Bandyskola"
+        },
+        {
+          "Value": 8,
+          "Text": "Banskötsel"
+        },
+        {
+          "Value": 10,
+          "Text": "Barnverksamhet"
+        },
+        {
+          "Value": 9,
+          "Text": "Basket"
+        },
+        {
+          "Value": 50,
+          "Text": "Basket ungdomsmatcher"
+        },
+        {
+          "Value": 11,
+          "Text": "Bordtennis"
+        },
+        {
+          "Value": 58,
+          "Text": "Boxning"
+        },
+        {
+          "Value": 59,
+          "Text": "Brottning"
+        },
+        {
+          "Value": 12,
+          "Text": "Brännboll"
+        },
+        {
+          "Value": 14,
+          "Text": "Budo & Kampsport"
+        },
+        {
+          "Value": 15,
+          "Text": "Cricket"
+        },
+        {
+          "Value": 16,
+          "Text": "Danssport"
+        },
+        {
+          "Value": 60,
+          "Text": "Dövidrott"
+        },
+        {
+          "Value": 17,
+          "Text": "Fotboll"
+        },
+        {
+          "Value": 18,
+          "Text": "Friidrott"
+        },
+        {
+          "Value": 19,
+          "Text": "Fäktning"
+        },
+        {
+          "Value": 61,
+          "Text": "Golf"
+        },
+        {
+          "Value": 21,
+          "Text": "Grounding"
+        },
+        {
+          "Value": 22,
+          "Text": "Gymnastik"
+        },
+        {
+          "Value": 23,
+          "Text": "Handboll"
+        },
+        {
+          "Value": 62,
+          "Text": "Handikappidrott"
+        },
+        {
+          "Value": 24,
+          "Text": "Hockey-bockey"
+        },
+        {
+          "Value": 55,
+          "Text": "Hyra"
+        },
+        {
+          "Value": 25,
+          "Text": "Idrott"
+        },
+        {
+          "Value": 27,
+          "Text": "Innebandy"
+        },
+        {
+          "Value": 28,
+          "Text": "Ishockey"
+        },
+        {
+          "Value": 26,
+          "Text": "Ishockeyskola"
+        },
+        {
+          "Value": 29,
+          "Text": "Isvård"
+        },
+        {
+          "Value": 63,
+          "Text": "Judo"
+        },
+        {
+          "Value": 75,
+          "Text": "Kalas"
+        },
+        {
+          "Value": 30,
+          "Text": "Karate"
+        },
+        {
+          "Value": 64,
+          "Text": "Klättring"
+        },
+        {
+          "Value": 32,
+          "Text": "Konståkning"
+        },
+        {
+          "Value": 31,
+          "Text": "Korpen"
+        },
+        {
+          "Value": 33,
+          "Text": "Kurs"
+        },
+        {
+          "Value": 34,
+          "Text": "Landhockey"
+        },
+        {
+          "Value": 38,
+          "Text": "Match"
+        },
+        {
+          "Value": 36,
+          "Text": "Match gym/bollhall"
+        },
+        {
+          "Value": 37,
+          "Text": "Mellanmål"
+        },
+        {
+          "Value": 40,
+          "Text": "Modellbygge"
+        },
+        {
+          "Value": 39,
+          "Text": "Motionsgymnastik"
+        },
+        {
+          "Value": 54,
+          "Text": "Möte"
+        },
+        {
+          "Value": 65,
+          "Text": "Orientering"
+        },
+        {
+          "Value": 56,
+          "Text": "Parasport"
+        },
+        {
+          "Value": 41,
+          "Text": "Quigong"
+        },
+        {
+          "Value": 57,
+          "Text": "Ridsport"
+        },
+        {
+          "Value": 42,
+          "Text": "Ringette"
+        },
+        {
+          "Value": 43,
+          "Text": "Rollerderby"
+        },
+        {
+          "Value": 66,
+          "Text": "Segling"
+        },
+        {
+          "Value": 73,
+          "Text": "Service"
+        },
+        {
+          "Value": 67,
+          "Text": "Simidrott"
+        },
+        {
+          "Value": 20,
+          "Text": "Självförsvar"
+        },
+        {
+          "Value": 69,
+          "Text": "Skateboard"
+        },
+        {
+          "Value": 68,
+          "Text": "Skidor"
+        },
+        {
+          "Value": 45,
+          "Text": "Skridskoskola"
+        },
+        {
+          "Value": 70,
+          "Text": "Skyttesport"
+        },
+        {
+          "Value": 71,
+          "Text": "Styrkelyft"
+        },
+        {
+          "Value": 47,
+          "Text": "Stängt"
+        },
+        {
+          "Value": 48,
+          "Text": "Taekwondo"
+        },
+        {
+          "Value": 49,
+          "Text": "Tennis"
+        },
+        {
+          "Value": 72,
+          "Text": "Tyngdlyftning"
+        },
+        {
+          "Value": 51,
+          "Text": "vinterfotboll"
+        },
+        {
+          "Value": 52,
+          "Text": "Volleyboll"
+        },
+        {
+          "Value": 46,
+          "Text": "Övernattning"
+        },
+        {
+          "Value": 53,
+          "Text": "Övrig idrott"
+        }
+      ],
+      "facilityObjectTypes": [
+        {
+          "Value": 31,
+          "Text": "11 plan Bandy"
+        },
+        {
+          "Value": 4,
+          "Text": "11-plan konstgräs"
+        },
+        {
+          "Value": 7,
+          "Text": "5-plan konstgräs"
+        },
+        {
+          "Value": 32,
+          "Text": "7 - plan Bandy"
+        },
+        {
+          "Value": 10,
+          "Text": "7-plan konstgräs"
+        },
+        {
+          "Value": 34,
+          "Text": "9-plan Konstgräs"
+        },
+        {
+          "Value": 14,
+          "Text": "Friidrott"
+        },
+        {
+          "Value": 18,
+          "Text": "Gymnastiksal"
+        },
+        {
+          "Value": 21,
+          "Text": "Ishall"
+        },
+        {
+          "Value": 23,
+          "Text": "Konferensrum"
+        },
+        {
+          "Value": 30,
+          "Text": "Samlingslokal"
+        },
+        {
+          "Value": 28,
+          "Text": "Sporthall"
+        },
+        {
+          "Value": 29,
+          "Text": "Tennisbana"
+        },
+        {
+          "Value": 20,
+          "Text": "Utebana"
+        }
+      ],
+      "districts": [
+        {
+          "Value": 9,
+          "Text": "Bergshamra"
+        },
+        {
+          "Value": 3,
+          "Text": "Hagalund"
+        },
+        {
+          "Value": 7,
+          "Text": "Huvudsta"
+        },
+        {
+          "Value": 8,
+          "Text": "Råsunda"
+        },
+        {
+          "Value": 11,
+          "Text": "Solna"
+        }
+      ],
+      "facilityObjects": [
+        {
+          "Value": 1270,
+          "Text": "Bagartorpshallen, Sporthall"
+        },
+        {
+          "Value": 258,
+          "Text": "Bergshamra IP, 11- plan Bandy"
+        },
+        {
+          "Value": 1267,
+          "Text": "Bergshamra IP, 11- plan Bandy, Halv Bandyplan 1"
+        },
+        {
+          "Value": 1268,
+          "Text": "Bergshamra IP, 11- plan Bandy, Halv Bandyplan 2"
+        },
+        {
+          "Value": 63,
+          "Text": "Bergshamra IP, 11-plan konstgräs"
+        },
+        {
+          "Value": 171,
+          "Text": "Bergshamra IP, 11-plan konstgräs, Halv 11-plan konstgräs 7A"
+        },
+        {
+          "Value": 172,
+          "Text": "Bergshamra IP, 11-plan konstgräs, Halv 11-plan konstgräs 7B"
+        },
+        {
+          "Value": 66,
+          "Text": "Bergshamra IP, 7-plan konstgräs"
+        },
+        {
+          "Value": 183,
+          "Text": "Bergshamra IP, 7-plan konstgräs, Halv 7-plan konstgräs 5A"
+        },
+        {
+          "Value": 185,
+          "Text": "Bergshamra IP, 7-plan konstgräs, Halv 7-plan konstgräs 5B"
+        },
+        {
+          "Value": 95,
+          "Text": "Bergshamra IP, Friidrott"
+        },
+        {
+          "Value": 1296,
+          "Text": "Bergshamra IP, Konferensrum Sekretariat"
+        },
+        {
+          "Value": 75,
+          "Text": "Bergshamra IP, Tennisbana 2"
+        },
+        {
+          "Value": 64,
+          "Text": "Bergshamra skolan, Gymnastiksal, höger"
+        },
+        {
+          "Value": 65,
+          "Text": "Bergshamra skolan, Gymnastiksal, vänster"
+        },
+        {
+          "Value": 1344,
+          "Text": "Bergshamraskolans Aula, Aulan"
+        },
+        {
+          "Value": 73,
+          "Text": "Granbacka skola, Gymnastiksal"
+        },
+        {
+          "Value": 16,
+          "Text": "Hagahuset"
+        },
+        {
+          "Value": 93,
+          "Text": "Hagahuset, Gymnastiksal"
+        },
+        {
+          "Value": 1339,
+          "Text": "Hagalunds BP, 5-plan Konstgräs"
+        },
+        {
+          "Value": 48,
+          "Text": "Huvudstafältets IP,  A-konstgräs (1) 11-plan"
+        },
+        {
+          "Value": 165,
+          "Text": "Huvudstafältets IP,  A-konstgräs (1) 11-plan, Halv 11-plan konstgräs 7A"
+        },
+        {
+          "Value": 166,
+          "Text": "Huvudstafältets IP,  A-konstgräs (1) 11-plan, Halv 11-plan konstgräs 7B"
+        },
+        {
+          "Value": 58,
+          "Text": "Huvudstafältets IP, C-konstgräs (3) 5-plan"
+        },
+        {
+          "Value": 59,
+          "Text": "Huvudstafältets IP, Gräsyta"
+        },
+        {
+          "Value": 1373,
+          "Text": "Huvudstafältets IP, Gräsyta, Halv gräsyta A"
+        },
+        {
+          "Value": 1374,
+          "Text": "Huvudstafältets IP, Gräsyta, Halv gräsyta B"
+        },
+        {
+          "Value": 1306,
+          "Text": "Järvastadens IP,  A-konstgräs (1) 11-plan"
+        },
+        {
+          "Value": 1332,
+          "Text": "Järvastadens IP,  A-konstgräs (1) 11-plan, Halva A-planen 7A"
+        },
+        {
+          "Value": 1333,
+          "Text": "Järvastadens IP,  A-konstgräs (1) 11-plan, Halva A-planen 7B"
+        },
+        {
+          "Value": 1307,
+          "Text": "Järvastadens IP,  B-konstgräs (2) 9-plan"
+        },
+        {
+          "Value": 1334,
+          "Text": "Järvastadens IP,  B-konstgräs (2) 9-plan, Halva B-planen 7A"
+        },
+        {
+          "Value": 1335,
+          "Text": "Järvastadens IP,  B-konstgräs (2) 9-plan, Halva B-planen 7B"
+        },
+        {
+          "Value": 1308,
+          "Text": "Järvastadens IP,  C-konstgräs (3) 7-plan"
+        },
+        {
+          "Value": 1336,
+          "Text": "Järvastadens IP,  C-konstgräs (3) 7-plan, Halva C-planen 5A"
+        },
+        {
+          "Value": 1321,
+          "Text": "Järvastadens IP, Konferensrum"
+        },
+        {
+          "Value": 51,
+          "Text": "Läroverkets BP, 7-plan Konstgräs"
+        },
+        {
+          "Value": 1262,
+          "Text": "Läroverkets BP, 7-plan Konstgräs, Halv 7-plan konstgräs 5A"
+        },
+        {
+          "Value": 1263,
+          "Text": "Läroverkets BP, 7-plan Konstgräs, Halv 7-plan konstgräs 5B"
+        },
+        {
+          "Value": 25,
+          "Text": "Noblaskolan (fd Alfa), Gymnastiksal"
+        },
+        {
+          "Value": 203,
+          "Text": "Raoul Wallenbergskolan, Gymnastiksal"
+        },
+        {
+          "Value": 169,
+          "Text": "Råstasjöns IP, 11-plan konstgräs , Halv 11-plan konstgräs 7A"
+        },
+        {
+          "Value": 170,
+          "Text": "Råstasjöns IP, 11-plan konstgräs , Halv 11-plan konstgräs 7B"
+        },
+        {
+          "Value": 1278,
+          "Text": "Råstasjöns IP, 5 Plan konstgräs Plan 1"
+        },
+        {
+          "Value": 1279,
+          "Text": "Råstasjöns IP, 5 Plan konstgräs Plan 2"
+        },
+        {
+          "Value": 52,
+          "Text": "Råsunda IP, 11-plan konstgräs"
+        },
+        {
+          "Value": 167,
+          "Text": "Råsunda IP, 11-plan konstgräs, Halv 11-plan konstgräs 7A"
+        },
+        {
+          "Value": 168,
+          "Text": "Råsunda IP, 11-plan konstgräs, Halv 11-plan konstgräs 7B"
+        },
+        {
+          "Value": 100,
+          "Text": "Råsundaskola, Gymnastiksal"
+        },
+        {
+          "Value": 33,
+          "Text": "Skytteholms IP, 11-plan A-konstgräs (1)"
+        },
+        {
+          "Value": 161,
+          "Text": "Skytteholms IP, 11-plan A-konstgräs (1), Halva A-planen 7A"
+        },
+        {
+          "Value": 162,
+          "Text": "Skytteholms IP, 11-plan A-konstgräs (1), Halva A-planen 7B"
+        },
+        {
+          "Value": 34,
+          "Text": "Skytteholms IP, 11-plan B-konstgräs (2)"
+        },
+        {
+          "Value": 163,
+          "Text": "Skytteholms IP, 11-plan B-konstgräs (2), Halva B-planen 7A"
+        },
+        {
+          "Value": 164,
+          "Text": "Skytteholms IP, 11-plan B-konstgräs (2), Halva B-planen 7B"
+        },
+        {
+          "Value": 31,
+          "Text": "Skytteholms IP, 11-plan C-konstgräs (3)"
+        },
+        {
+          "Value": 157,
+          "Text": "Skytteholms IP, 11-plan C-konstgräs (3), Halva C-planen 7A"
+        },
+        {
+          "Value": 158,
+          "Text": "Skytteholms IP, 11-plan C-konstgräs (3), Halva C-planen 7B"
+        },
+        {
+          "Value": 80,
+          "Text": "Skytteholms skola, Gymnastiksal liten"
+        },
+        {
+          "Value": 81,
+          "Text": "Skytteholms skola, Gymnastiksal Mellan"
+        },
+        {
+          "Value": 1359,
+          "Text": "Skytteholmsskolans matsal, Matsalen"
+        },
+        {
+          "Value": 82,
+          "Text": "Sunnanskolan, Gymnastiksal"
+        },
+        {
+          "Value": 83,
+          "Text": "Tallbackaskolan, Sporthall"
+        },
+        {
+          "Value": 26,
+          "Text": "Ulriksdals IP, Hall 1"
+        },
+        {
+          "Value": 101,
+          "Text": "Ulriksdals IP, Hall 2"
+        },
+        {
+          "Value": 205,
+          "Text": "Ulriksdals IP, Hall 3"
+        },
+        {
+          "Value": 208,
+          "Text": "Ulriksdals IP, Konferensrum 1009"
+        },
+        {
+          "Value": 237,
+          "Text": "Ulriksdals IP, Konferensrum lilla 1008"
+        },
+        {
+          "Value": 210,
+          "Text": "Ulriksdals IP, Uppvärmnings rummet Ishall 3"
+        },
+        {
+          "Value": 28,
+          "Text": "Ulriksdalshallen, Sporthall"
+        },
+        {
+          "Value": 60,
+          "Text": "Vasalundshallen, Bollhall"
+        },
+        {
+          "Value": 62,
+          "Text": "Vasalundshallen, Västra salen"
+        },
+        {
+          "Value": 84,
+          "Text": "Vasalundshallen, Östra salen"
+        },
+        {
+          "Value": 1365,
+          "Text": "Villa Hagsäter, Villa Hagsäter"
+        },
+        {
+          "Value": 99,
+          "Text": "Ängkärrsskolan, Gymnastiksal"
+        }
+      ],
+      "propertyFilters": []
+    }
+  }
+]

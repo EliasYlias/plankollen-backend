@@ -1,0 +1,190 @@
+[
+  {
+    "id": "skytteholms-ip-11-plan-a",
+    "name": "Skytteholms IP - 11-plan A",
+    "area": "Solna",
+    "surface": "Konstgräs",
+    "openingHours": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "bookings": [
+      {
+        "start": "09:00",
+        "end": "10:00",
+        "title": "Fotboll"
+      },
+      {
+        "start": "09:30",
+        "end": "11:30",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "10:00",
+        "end": "12:00",
+        "title": "AIK Fotboll AB ( Dam Solna FK) — Fotboll"
+      },
+      {
+        "start": "12:00",
+        "end": "16:45",
+        "title": "AIK Fotboll AB  (Herr Dam U 19) — Fotboll"
+      },
+      {
+        "start": "12:15",
+        "end": "14:45",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "15:15",
+        "end": "17:45",
+        "title": "Vasalund IF — Fotboll"
+      },
+      {
+        "start": "18:30",
+        "end": "20:45",
+        "title": "Vasalund IF — Fotboll"
+      }
+    ],
+    "isSpontan": false
+  },
+  {
+    "id": "skytteholms-ip-11-plan-b",
+    "name": "Skytteholms IP - 11-plan B",
+    "area": "Solna",
+    "surface": "Konstgräs",
+    "openingHours": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "bookings": [
+      {
+        "start": "09:00",
+        "end": "11:00",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "09:30",
+        "end": "11:00",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "11:00",
+        "end": "12:30",
+        "title": "Vasalund FF  — Fotboll"
+      },
+      {
+        "start": "12:00",
+        "end": "13:30",
+        "title": "Vasalund IF — Fotboll"
+      },
+      {
+        "start": "13:00",
+        "end": "14:30",
+        "title": "AS Solna Fotbollsförening — Fotboll"
+      },
+      {
+        "start": "13:30",
+        "end": "15:30",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "15:00",
+        "end": "16:45",
+        "title": "Vasalund FF  — Fotboll"
+      },
+      {
+        "start": "16:00",
+        "end": "17:45",
+        "title": "AIK Fotboll AB ( Dam Solna FK) — Fotboll"
+      },
+      {
+        "start": "19:00",
+        "end": "21:00",
+        "title": "AIK Fotboll AB ( Dam Solna FK) — Fotboll"
+      }
+    ],
+    "isSpontan": false
+  },
+  {
+    "id": "skytteholms-ip-11-plan-c",
+    "name": "Skytteholms IP - 11-plan C",
+    "area": "Solna",
+    "surface": "Konstgräs",
+    "openingHours": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "bookings": [
+      {
+        "start": "09:00",
+        "end": "11:00",
+        "title": "Vasalund IF — Fotboll"
+      },
+      {
+        "start": "09:00",
+        "end": "10:30",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "10:30",
+        "end": "12:00",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "11:00",
+        "end": "13:00",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "12:00",
+        "end": "15:00",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "15:00",
+        "end": "16:30",
+        "title": "AIK Fotboll AB ( Dam Solna FK) — Fotboll"
+      },
+      {
+        "start": "16:00",
+        "end": "18:00",
+        "title": "AIK Fotbollförening  (Ungdom) — Fotboll"
+      },
+      {
+        "start": "17:00",
+        "end": "18:30",
+        "title": "AIK Fotboll AB ( Dam Solna FK) — Fotboll"
+      },
+      {
+        "start": "19:00",
+        "end": "20:15",
+        "title": "Hagalunds idrottssällskap — Fotboll"
+      }
+    ],
+    "isSpontan": false
+  },
+  {
+    "id": "spontan-nackros",
+    "name": "Näckrosparken",
+    "area": "Råsunda",
+    "surface": "Grus",
+    "openingHours": {
+      "open": "07:00",
+      "close": "22:00"
+    },
+    "bookings": [],
+    "isSpontan": true
+  },
+  {
+    "id": "spontan-lunden",
+    "name": "Lundens IP",
+    "area": "Solna",
+    "surface": "Gräs",
+    "openingHours": {
+      "open": "00:00",
+      "close": "23:59"
+    },
+    "bookings": [],
+    "isSpontan": true
+  }
+]
