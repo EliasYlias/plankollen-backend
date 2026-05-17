@@ -16,9 +16,9 @@ if (!fs.existsSync(DATA_FILE)) {
 
 // ─── Kända planer med deras Interbook GO resource-ID ─────────────────────
 const PLANS = [
-  { id: 33, name: 'Skytteholms IP - 11-plan A', surface: 'Konstgräs', area: 'Solna' },
-  { id: 34, name: 'Skytteholms IP - 11-plan B', surface: 'Konstgräs', area: 'Solna' },
-  { id: 31, name: 'Skytteholms IP - 11-plan C', surface: 'Konstgräs', area: 'Solna' },
+  { id: 33, name: 'Skytteholms IP - 11-plan A', surface: 'Konstgräs', area: 'Solna', lat: 59.3718, lng: 18.0046 },
+  { id: 34, name: 'Skytteholms IP - 11-plan B', surface: 'Konstgräs', area: 'Solna', lat: 59.3720, lng: 18.0048 },
+  { id: 31, name: 'Skytteholms IP - 11-plan C', surface: 'Konstgräs', area: 'Solna', lat: 59.3722, lng: 18.0050 },
 ];
 
 const SPONTAN_FIELDS = [
@@ -170,6 +170,8 @@ async function scrapeFields() {
         name: plan.name,
         area: plan.area,
         surface: plan.surface,
+        lat: plan.lat,
+        lng: plan.lng,
         openingHours: { open: '08:00', close: '23:00' },
         bookings,
         isSpontan: false,
