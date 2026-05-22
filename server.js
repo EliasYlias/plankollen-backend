@@ -16,9 +16,25 @@ if (!fs.existsSync(DATA_FILE)) {
 
 // ─── Kända planer med deras Interbook GO resource-ID ─────────────────────
 const PLANS = [
-  { id: 33, name: 'Skytteholms IP - 11-plan A', surface: 'Konstgräs', area: 'Solna', lat: 59.35965915843798, lng: 17.992072672024573 },
-  { id: 34, name: 'Skytteholms IP - 11-plan B', surface: 'Konstgräs', area: 'Solna', lat: 59.35971383761844, lng: 17.994701236890055 },
-  { id: 31, name: 'Skytteholms IP - 11-plan C', surface: 'Konstgräs', area: 'Solna', lat: 59.359139701829875, lng: 17.995119661501295 },
+  // Skytteholms IP
+  { id: 33, name: 'Skytteholms IP - Plan A', surface: 'Konstgräs', area: 'Skytteholm', lat: 59.35965915843798, lng: 17.992072672024573 },
+  { id: 34, name: 'Skytteholms IP - Plan B', surface: 'Konstgräs', area: 'Skytteholm', lat: 59.35971383761844, lng: 17.994701236890055 },
+  { id: 31, name: 'Skytteholms IP - Plan C', surface: 'Konstgräs', area: 'Skytteholm', lat: 59.359139701829875, lng: 17.995119661501295 },
+
+  // Bergshamra IP
+  { id: 63, name: 'Bergshamra IP', surface: 'Konstgräs', area: 'Bergshamra', lat: 59.384917, lng: 18.028222 },
+
+  // Råsunda IP
+  { id: 52, name: 'Råsunda IP', surface: 'Konstgräs', area: 'Råsunda', lat: 59.362361, lng: 17.992222 },
+
+  // Huvudstafältets IP
+  { id: 48, name: 'Huvudstafältets IP', surface: 'Konstgräs', area: 'Huvudsta', lat: 59.353083, lng: 17.988528 },
+
+  // Ulriksdals IP
+  { id: 26, name: 'Ulriksdals IP', surface: 'Konstgräs', area: 'Ulriksdal', lat: 59.374694, lng: 18.006333 },
+
+  // Vasalundshallen
+  { id: 60, name: 'Vasalundshallen', surface: 'Hall', area: 'Vasalund', lat: 59.368472, lng: 17.998556 },
 ];
 
 const SPONTAN_FIELDS = [
@@ -74,7 +90,6 @@ function toHHMM(val) {
   return String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
 }
 
-// Hämta dagens datum i formatet YYYY-MM-DD
 function getDateRange() {
   const today = new Date();
   const start = new Date(today);
@@ -183,6 +198,8 @@ async function scrapeFields() {
         name: plan.name,
         area: plan.area,
         surface: plan.surface,
+        lat: plan.lat,
+        lng: plan.lng,
         openingHours: { open: '08:00', close: '23:00' },
         bookings: [],
         isSpontan: false,
